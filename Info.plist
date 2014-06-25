@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowFullAccess</key>
+	<true/>
+	<key>AllowMultipleInstances</key>
+	<false/>
+	<key>CFBundleIdentifier</key>
+	<string>com.DistortedVista.organized</string>
+	<key>CFBundleName</key>
+	<string>Organized</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.11</string>
+	<key>CFBundleVersion</key>
+	<string>1.11</string>
+	<key>CloseBoxInsetX</key>
+	<integer>19</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>16</integer>
+	<key>Height</key>
+	<integer>304</integer>
+	<key>MainHTML</key>
+	<string>Organized.html</string>
+	<key>Plugin</key>
+	<string>Organized.bundle</string>
+	<key>Width</key>
+	<integer>246</integer>
+</dict>
+</plist>

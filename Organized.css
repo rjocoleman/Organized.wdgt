@@ -1,0 +1,2253 @@
+#todo-item-url-label {
+	font:bold 11px/14px 'Lucida Grande';
+	max-width:141px;
+	float:left;
+}
+
+.pref-cal-container {
+	position:relative;
+	padding-bottom:4px;
+}
+
+.pref-cal-name {
+	padding-top:1px;
+	margin-left:18px;
+	color:white;
+	font-size:11px;
+	width:145px;
+}
+
+.pref-cal-checkbox {
+	position:absolute;
+	top:0px;
+	background-image:url(./images/back/check_coloured.png);
+	height:16px;
+	width:16px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.pref-cal-checkbox-unchecked {
+	background-position:0px 0px;
+	background-size:2px;
+}
+
+.pref-cal-checkbox-unchecked:active {
+	background-position:0px -16px;
+}
+
+.pref-cal-checkbox-checked {
+	background-position:0px -32px;
+}
+
+.pref-cal-checkbox-checked:active {
+	background-position:0px -48px;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+.todo-dontshowduedate .todo-duedate {
+	display:none;
+}
+
+.todo-showduedate .todo-duedate {
+	display:block;
+}
+
+.todo-duedate {
+	position:absolute;
+	left:128px;
+	width:30px;
+	font-size:8px;
+	overflow:hidden;
+	top:4px;
+	text-align:right;
+}
+
+.todo-duedate-nopriority {
+	left:140px;
+}
+
+.todo-showduedate .todo-name-editor-nopriority {
+	width:122px;
+}
+
+.todo-showduedate .todo-name-editor-priority {
+	width:111px;
+}
+
+.todo-showduedate .todo-name-nopriority {
+	width:122px;
+}
+
+.todo-showduedate .todo-name-priority {
+	width:111px;
+}
+
+.todo-priority-nopriority {
+	left:170px;
+	width:9px;
+}
+
+
+.todo-dontshowduedate .todo-name-editor-nopriority {
+	width:146px;
+}
+
+.todo-dontshowduedate .todo-name-editor-priority {
+	width:135px;
+}
+
+.todo-dontshowduedate .todo-name-nopriority {
+	width:146px;
+}
+
+.todo-dontshowduedate .todo-name-priority {
+	width:135px;
+}
+
+#tab-container div {
+	border:0px solid red;
+}
+
+li {
+	padding:0px;
+	margin:0px;
+}
+
+.tenfive-two li, .tenfive-two ul {
+	text-shadow: rgba(0,0,0,1.0) 0px 1px 0px;
+}
+
+.todo-item-label {
+	color:rgba(0,0,0,1.0);
+}
+
+.todo-item-label-placeholder {
+	color:rgba(0,0,0,0.5);
+}
+
+.todo-item-checkbox {
+	background-image:url(./images/todo/todo_check.png);
+	width:14px;
+	height:15px;
+	position:absolute;
+	left:-1px;
+}
+
+.todo-item-checkbox-on {
+	background-image:url(./images/todo/todo_checkon.png);
+}
+
+#todo-newtodo-calendar-title {
+	color:#434343;
+	font:normal 12px/14px 'Lucida Grande';
+	position:absolute;
+	left:30px;
+	width:130px;
+	top:21px;
+}
+
+
+.tenfive-two #todo-newtodo-calendar-title {
+	text-shadow: rgba(255,255,255,0.8 ) 0px 1px 0px;
+}
+
+.tenfive-two .event-detail-label {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .event-detail-value {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .clock-mode-small .worldclock-location {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .clock-mode-small .am-ticks {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .clock-mode-small .am-noticks {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .clock-mode-large .worldclock-time {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .clock-mode-large .worldclock-location {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .event-day-header-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-two .pref-current-clock-item-title {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .cal-headerdate {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-two .calmonth {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-two .calendar-day-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-two .calendar-dayname-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-two .worldclock-date {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-title {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-time {
+	text-shadow: rgba(255,255,255,0.8) 0px 0px 0px;
+}
+
+.tenfive-two .event-item-name-fade-0 {
+	text-shadow: rgba(255,255,255,0.8) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-1 {
+	text-shadow: rgba(255,255,255,0.72) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-2 {
+	text-shadow: rgba(255,255,255,0.64) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-3 {
+	text-shadow: rgba(255,255,255,0.56) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-4 {
+	text-shadow: rgba(255,255,255,0.48) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-5 {
+	text-shadow: rgba(255,255,255,0.4) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-6 {
+	text-shadow: rgba(255,255,255,0.32) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-7 {
+	text-shadow: rgba(255,255,255,0.2) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-8 {
+	text-shadow: rgba(255,255,255,0.08) 0px 1px 0px;
+}
+
+.tenfive-two .event-item-name-fade-9 {
+	text-shadow: rgba(255,255,255,0) 0px 1px 0px;
+}
+
+.tenfive-pretwo #todo-newtodo-calendar-title {
+	text-shadow: rgba(255,255,255,0.8 ) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-detail-label {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-detail-value {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .clock-mode-small .worldclock-location {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .clock-mode-small .am-ticks {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .clock-mode-small .am-noticks {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .clock-mode-large .worldclock-time {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .clock-mode-large .worldclock-location {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-day-header-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-pretwo .pref-current-clock-item-title {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .cal-headerdate {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-pretwo .calmonth {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-pretwo .calendar-day-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-pretwo .calendar-dayname-text {
+	text-shadow: rgba(0,0,0,0.2) 0px 2px 1px;
+}
+
+.tenfive-pretwo .worldclock-date {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-title {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-time {
+	text-shadow: rgba(255,255,255,0.8) 0px 0px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-0 {
+	text-shadow: rgba(255,255,255,0.8) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-1 {
+	text-shadow: rgba(255,255,255,0.72) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-2 {
+	text-shadow: rgba(255,255,255,0.64) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-3 {
+	text-shadow: rgba(255,255,255,0.56) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-4 {
+	text-shadow: rgba(255,255,255,0.48) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-5 {
+	text-shadow: rgba(255,255,255,0.4) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-6 {
+	text-shadow: rgba(255,255,255,0.32) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-7 {
+	text-shadow: rgba(255,255,255,0.2) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-8 {
+	text-shadow: rgba(255,255,255,0.08) 0px 2px 0px;
+}
+
+.tenfive-pretwo .event-item-name-fade-9 {
+	text-shadow: rgba(255,255,255,0) 0px 2px 0px;
+}
+
+.clock-mode-large {
+	background:url('images/clocks/clock_background.png');
+}
+
+.clock-mode-small {
+	background:url('images/clocks/clocksmall_background.png');
+}
+
+.clock-mode-animation {
+	background-color:#c7cdd3;
+	background-image:none;
+}
+
+.clock-mode-small .worldclock-item-draghandle {
+	display:none;
+}
+
+.clock-mode-small .clockface-container {
+	display:none;
+}
+
+.clock-mode-small .worldclock-date {
+	display:none;
+}
+
+.clock-mode-small .worldclock-item {
+	height:31px;
+	width:196px;
+}
+
+.clock-mode-small .worldclock-item-outer {
+	cursor:pointer;
+	position:absolute;
+	height:31px;
+	width:200px;
+	z-index:50;
+	overflow:hidden;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.clock-mode-small .drag {
+	z-index:65;
+}
+
+.clock-mode-small .worldclock-item { 
+	background-image:url(./images/clocks/clocksmall_item.png);
+}
+.clock-mode-small .drag .worldclock-item{ 
+	background-image:url(./images/clocks/clocksmall_item_drag.png);
+}
+
+.clock-mode-small canvas {
+	display:none;
+}
+
+.clock-mode-small .shine {
+	display:none;
+}
+
+.clock-mode-small .worldclock-location {
+	position:absolute;
+	top:8px;
+	left:5px;
+	height:15px;
+	width:110px;
+	font: normal 12px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #454850;
+}
+.clock-mode-small .pm-ticks {
+	background-position:0px 0px;
+	color: #cdd4de;
+}
+
+.clock-mode-small .pm-noticks {
+	background-position:0px 0px;
+	color: #cdd4de;
+}
+
+.clock-mode-small .am-ticks {
+	background-position:0px -31px;
+	color: #454850;
+}
+
+.clock-mode-small .am-noticks {
+	background-position:0px -31px;
+	color: #454850;
+}
+
+.clock-mode-small .worldclock-time {
+	font: bold 11px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	position:absolute;
+	top:8px;
+	left:118px;
+	height:13px;
+	width:69px;
+	text-align:right;
+}
+
+.clock-mode-large .shine {
+	display:block;
+}
+
+.clock-mode-large .worldclock-item {
+	height:52px;
+	width:196px;
+}
+
+.clock-mode-large .pm-ticks {
+	background-position:0px 0px;
+}
+
+.clock-mode-large .pm-noticks {
+	background-position:0px -104px;
+}
+
+.clock-mode-large .am-ticks {
+	background-position:0px -52px;
+}
+
+.clock-mode-large .am-noticks {
+	background-position:0px -156px;
+}
+
+.clock-mode-large .worldclock-time {
+	position:absolute;
+	top:32px;
+	left:55px;
+	height:13px;
+	width:131px;
+	font: normal 11px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: rgba(97,103,114,1.0);
+}
+
+.clock-mode-large .worldclock-location {
+	position:absolute;
+	top:5px;
+	left:55px;
+	height:15px;
+	width:140px;
+	font: normal 12px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #454850;
+}
+
+.clock-mode-large .worldclock-item-outer {
+	overflow:hidden;
+	-apple-dashboard-region:none;
+	position:absolute;
+	height:52px;
+	opacity:1;
+	width:196px;
+	z-index:50;
+}
+
+.clock-mode-large .drag {
+	z-index:65;
+}
+
+.clock-mode-large .worldclock-item { 
+	background-image:url(./images/clocks/clock_item.png);
+}
+.clock-mode-large .drag .worldclock-item { 
+	background-image:url(./images/clocks/clock_item_drag.png);
+}
+
+.drag {
+	z-index:65;
+}
+
+.calendar-day-dot {
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:27px;
+	width:28px;
+	background-image:none;
+}
+
+.calendar-day-dot-hasevent {
+	background-image:url(./images/cal/eventdot.png)
+}
+
+.calendar-day-dot-hasevent-surrounding {
+	background-image:url(./images/cal/eventdot_othermonth.png)
+}
+
+.calendar-day-dot-hasevent-selected {
+	background-image:url(./images/cal/eventdot_selected.png)
+}
+
+.event-detail-value .link {
+	color:#333333;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.link:hover {
+	text-decoration:underline;
+}
+
+.pref-tab {
+	width:62px;
+	height:20px;
+	position:absolute;
+	top:54px;	
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.pref-tab-unselected {
+	background-position:0px 0px;
+}
+
+.pref-tab-unselected:active {
+	background-position:0px -20px;
+}
+
+.pref-tab-selected {
+	background-position:0px -40px;
+}
+
+.pref-tab-selected:active {
+	background-position:0px -60px;
+}
+
+#pref-tab-general {
+	background-image:url(./images/back/tab_general.png);
+	left:32px;
+}
+
+#pref-tab-clocks {
+	background-image:url(./images/back/tab_clocks.png);
+	left:93px;
+}
+
+#pref-tab-cal {
+	background-image:url(./images/back/tab_cals.png);
+	left:154px;
+}
+
+#pref-base {
+	background-image:url(./images/back/back_bottom.png)
+}
+
+#back-middle {
+	background-image:url(./images/back/back_middletop.png), url(./images/back/back_middle.png);
+	background-repeat:no-repeat, repeat-y;
+	background-position:19px 0px, top left;
+}
+
+.event-day-header {
+	height:18px;
+	background-image:url(images/events/event_date.png);
+	width:196px;
+	position:absolute;
+	display:none;
+}
+
+.event-day-header-text {
+	position:absolute;
+	top:3px;
+	width:156px;
+	left:20px;	
+	text-align:center;
+	font: bold 10px "Lucida Grande";
+	color: white;
+}
+
+#tab-clocks {
+	z-index:1;
+	left:25px;
+	width:196px;
+	position:absolute;
+	top:0px;
+	opacity:1;
+	overflow:hidden;
+}
+
+
+
+.donate {
+	background-image:url(./images/back/button_donate.png);
+	height:20px;
+	width:186px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.donate:active {
+	background-position:0px -20px;
+}
+
+.pref-current-clock-item-title {
+	width:130px;
+	position:absolute;
+	left:20px;
+	top:3px;
+	font: normal 12px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #454850;
+}
+
+.pref-current-clock-remove-button {
+	background-image:url(./images/back/button_removeclock.png);
+	height:14px;
+	width:14px;
+	position:absolute;
+	left:3px;
+	top:4px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.pref-current-clock-remove-button:active {
+	background-position:0px -14px;
+}
+
+.pref-current-clock-item {
+	background-image:url(./images/back/clock_item.png);
+	height:21px;
+	width:182px;
+	position:absolute;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	z-index:10;
+	overflow:hidden;
+}
+
+.pref-current-clock-item-shadow{
+	background-image:url(./images/back/clock_item_shadow.png);
+	height:29px;
+	width:190px;
+	position:absolute;
+	left:28px;
+	display:none;
+	z-index:9;
+}
+
+.pref-current-clock-item-drag {
+	z-index:11;
+}
+
+.search-result-item {
+	background-image:url(./images/back/searchresults_mid.png);
+	height:20px;
+	width:182px;
+	position:absolute;
+	left:0px;
+	overflow:hidden;
+}
+
+.search-result-item-last {
+	height:18px;
+}
+
+.search-result-item-button {
+	background-image:url(./images/back/button_addclock.png);
+	height:17px;
+	width:18px;
+	position:absolute;
+	left:3px;
+	top:1px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.search-result-item-button:active {
+	background-position:0px -17px;
+}
+
+.search-result-item-title {
+	width:130px;
+	position:absolute;
+	left:25px;
+	top:2px;
+	font: normal 12px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.search-result-item-title-noresults {
+	width:182px;
+	position:absolute;
+	top:2px;
+	text-align:center;
+	font: normal 12px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.search-noresults {
+	width:130px;
+	position:absolute;
+	left:0px;
+	top:2px;
+	width:182px;
+	text-align:center;
+	font: normal 12px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.search-header {
+	height:21px;
+	width:182px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.search-header-inactive {
+	background-image:url(./images/back/search_field.png);
+}
+
+.search-header-active {
+	background-image:url(./images/back/searchresults_top.png);
+}
+
+.checked {
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px -32px;
+}
+
+.checked:active {
+	background-position:0px -48px;
+}
+
+.unchecked {
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.unchecked:active {
+	background-position:0px -16px;
+}
+
+#tab-container {
+	position:absolute;
+	top:258px;
+	height:260px;
+	overflow:hidden;
+	width:246px;
+	left:0px;
+}
+
+.todo-add-todo-do {
+	background-image:url(./images/todo/button_ok.png);
+	width:74px;
+	height:20px;
+	left:101px;
+	position:absolute;
+	top:43px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-add-todo-do:active {
+	background-position:0px -20px;
+}
+
+.todo-add-todo-cancel {
+	background-image:url(./images/todo/button_cancelcal.png);
+	width:74px;
+	height:20px;
+	left:21px;
+	position:absolute;
+	top:43px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-add-todo-cancel:active {
+	background-position:0px -20px;
+}
+
+.todo-add-cal-do {
+	background-image:url(./images/todo/button_ok.png);
+	width:74px;
+	height:20px;
+	left:101px;
+	position:absolute;
+	top:43px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-add-cal-do:active {
+	background-position:0px -20px;
+}
+
+.todo-add-cal-cancel {
+	background-image:url(./images/todo/button_cancelcal.png);
+	width:74px;
+	height:20px;
+	left:21px;
+	position:absolute;
+	top:43px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-add-cal-cancel:active {
+	background-position:0px -20px;
+}
+
+.todo-confirm-delete-do {
+	background-image:url(./images/todo/button_deletetodo.png);
+	width:94px;
+	height:20px;
+	left:51px;
+	position:absolute;
+	top:0px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.note-confirm-delete-do {
+	background-image:url(./images/notes/button_deletenote.png);
+	width:94px;
+	height:20px;
+	left:51px;
+	position:absolute;
+	top:0px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-confirm-delete-do:active, .note-confirm-delete-do:active {
+	background-position:0px -20px;
+}
+
+.note-confirm-delete-cancel {
+	background-image:url(./images/notes/button_cancelnote.png);
+	width:94px;
+	height:20px;
+	left:51px;
+	position:absolute;
+	top:25px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-confirm-delete-cancel {
+	background-image:url(./images/todo/button_cancel.png);
+	width:94px;
+	height:20px;
+	left:51px;
+	position:absolute;
+	top:25px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-confirm-delete-cancel:active, .note-confirm-delete-cancel:active {
+	background-position:0px -20px;
+}
+
+.calendar-back {
+	background-image:url(./images/cal/button_arrowleft.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:105px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.calendar-back:active {
+	background-position:0px -20px;
+}
+
+.calendar-reset {
+	background-image:url(./images/cal/button_gototoday.png);
+	height:19px;
+	width:43px;
+	position:absolute;
+	left:128px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.calendar-reset:active {
+	background-position:0px -20px;
+}
+
+.calendar-forward {
+	background-image:url(./images/cal/button_arrowright.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:174px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.calendar-forward:active {
+	background-position:0px -20px;
+}
+
+.update-ok {
+	background-image:url(./images/update/button_ok.png);
+	width:80px;
+	height:22px;
+	position:absolute;
+	left:74px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.update-download {
+	background-image:url(./images/update/button_download.png);
+	width:80px;
+	height:22px;
+	position:absolute;
+	left:15px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.update-later {
+	background-image:url(./images/update/button_later.png);
+	width:53px;
+	height:22px;
+	position:absolute;
+	left:101px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.update-skip {
+	background-image:url(./images/update/button_skip.png);
+	width:49px;
+	height:22px;
+	position:absolute;
+	left:159px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.update-download:active, .update-later:active, .update-skip:active, .update-ok:active {
+	background-position:0px -22px;
+}
+
+.top {
+	width:246px;
+	height:238px;
+	position:absolute;	
+	background-image:url(./images/common/top.png);	
+}
+
+.focus .top {
+	background-position:0px 0px;
+}
+
+.nofocus .top {
+	background-position:0px -250px;
+}
+
+.middle {
+	position:absolute;
+	overflow:hidden;
+	width:246px;
+	left:0px;
+}
+
+.focus .middle {
+	background-image:url(./images/common/middle.png);
+}
+
+.nofocus .middle {
+	background-image:url(./images/common/middle_nofocus.png);
+}
+
+.base {
+	background-image:url(./images/common/bottom.png);
+	position:absolute;
+	top:270px;
+	height:50px;
+	width:246px;
+	left:0px;
+}
+
+.focus .base {
+	background-position:0px 0px;
+}
+
+.nofocus .base {
+	background-position:0px -50px;
+}
+
+.worldclock-item-draghandle {
+	position:absolute;
+	left:172px;
+	height:25px;
+	width:20px;
+	z-index:55;
+	top:10px;
+	cursor:pointer;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.dateHeaderContainer {
+	font-family:"Lucida Grande";
+	font-size:11px;
+	font-weight:bold;
+	color: #bbbbbb;
+	width:140px;
+	position:absolute;
+	top:20px;
+	left:25px;
+	overflow:hidden;
+	height:15px;
+}
+
+.dateHeader {
+	position:absolute;
+	top:0px;
+	text-align:center;
+	width:140px;
+}
+
+.cal-headerdate {
+	font: bold 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: white;
+	position:absolute;
+	top:22px;
+	left:20px;
+	width:206px;
+	text-align:center;
+}
+
+.city-search-item, .city-search-item-label {
+	font-family:"Lucida Grande";
+	font-size:11px;
+	font-weight:bold;
+	color:white;
+	clear:both;
+	float:none;
+	height:13px;
+	overflow:hidden;
+	margin-left:15px;
+}
+
+.city-search-item-label {
+	margin-left:0px;
+}
+
+.city-search-highlight {
+	background-color:blue;
+}
+
+.search-close {
+	display:none;
+	position:absolute;
+	top:6px;
+	left:165px;
+	background-image:url(./images/back/search_clear.png);
+	width:11px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	height:11px;
+	background-position:0px 0px;
+}
+
+.search-close:active {
+	background-position:0px -11px;
+}
+	
+#event-marker {
+	background-image:url(./images/events/now.png);
+	width:196px;
+	height:11px;
+	position:absolute;
+	top:0px;
+}
+
+.calmonth {
+	font-family:"Lucida Grande";
+	font-size:11px;
+	font-weight:bold;
+	color: color;
+	width:90px;
+	position:absolute;
+	left:8px;
+	top:1px;
+}
+
+.flip {
+	position:absolute;
+	top:21px;
+	left:197px;
+	background-image:url(./images/common/flip.png);
+	height:20px;
+	width:20px;
+	z-index:40;
+	opacity:0;
+	background-position:0px 0px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+			
+.flip:active {
+	background-position:0px -20px;
+}
+			
+.done {
+	background-image:url(./images/back/button_done.png);
+	height:20px;
+	width:76px;
+	position:absolute;
+	top:12px;
+	left:140px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.done:active {
+	background-position:0px -20px;
+}
+
+.update {
+	background-image:url(./images/back/button_checkforupdates.png);
+	height:20px;
+	width:186px;
+	position:absolute;
+	top:159px;
+	left:30px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.update:active {
+	background-position:0px -20px;
+}
+			
+.paypalButton
+{
+	background-image:url(./back/button_paypal.png);
+	position:absolute;
+	top:15px;
+	left:21px;
+	width:212px;
+	height:17px;
+}
+			
+.paypalButton:hover
+{
+	background-image:url(./back/button_paypal_on.png);
+}
+
+#ok{	background-image:url(./updatechecker/versioncheck_ok.png);height:24px;width:64px;float:left;}#no{	background-image:url(./updatechecker/versioncheck_no.png);height:24px;width:57px;float:left;padding-right:7px;}#yes{	background-image:url(./updatechecker/versioncheck_yes.png);height:24px;width:64px;float:left;}#ok:hover{	background-image:url(./updatechecker/versioncheck_ok_rollie.png);}#no:hover{	background-image:url(./updatechecker/versioncheck_no_rollie.png);}#yes:hover{	background-image:url(./updatechecker/versioncheck_yes_rollie.png);}	
+			
+body,html{	padding:0px;	margin:0px;	font-family:"Lucida Grande";
+	font-size:10px;
+	color:white;
+}
+
+td{	padding:0px;	margin:0px;	font-family:"Lucida Grande";
+	font-size:12px;
+	color:white;
+}
+
+.calendar-row {
+	position:absolute;
+	left:0px;
+	width:196px;
+	height:25px;
+}
+
+.calendar-row0 {
+	top:50px;
+}
+
+.calendar-row1 {
+	top:0px;
+}
+
+.calendar-row2 {
+	top:17px;
+}
+
+.calendar-row3 {
+	top:34px;
+}
+
+.calendar-row4 {
+	top:51px;
+}
+
+.calendar-row5 {
+	top:68px;
+}
+
+.calendar-row6 {
+	top:85px;
+}
+
+.last {
+	height:18px;
+}
+
+.calendar-day-cell {
+	width:28px;
+	height:25px;
+	float:left;
+	margin-left:0px;
+	overflow:hidden;
+	text-align:right;
+	overflow:hidden;
+	background-image:url(./images/cal/day.png);
+	position:relative;
+}
+
+.calendar-day-cell-name {
+	background-image:none;
+}
+
+.calendar-day-cell-today {
+	background-image:url(./images/cal/today.png)
+}
+
+.calendar-day-cell-today-selected {
+	background-image:url(./images/cal/today_selected.png)
+}
+
+.calendar-day-cell-selected {
+	background-image:url(./images/cal/selected.png)
+}
+
+.calendar-day-text {
+	font: bold 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	margin-top:1px;
+	margin-right:0px;
+	width:28px;
+	text-align:center;
+}
+
+.calendar-day-text-slide-0 {
+	color: #ffffff;
+}
+
+.calendar-day-text-slide-1 {
+	color: #e7ecf3;
+}
+
+.calendar-day-text-slide-2 {
+	color: #d7deea;
+}
+
+.calendar-day-text-slide-3 {
+	color: #c4d0e1;
+}
+
+.calendar-day-text-slide-4 {
+	color: #b1c0d6;
+}
+
+.calendar-day-text-slide-5 {
+	color: #9eb1cc;
+}
+
+.calendar-day-text-slide-6 {
+	color: #8ba2c2;
+}
+
+.calendar-day-text-slide-7 {
+	color: #7a94ba;
+}
+
+.calendar-day-text-slide-8 {
+	color: #6d89b3;
+}
+
+.calendar-day-text-slide-9 {
+	color: #6381ae;
+}
+
+
+
+.calendar-dayname-text {
+	font: bold 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #616772;
+	margin-top:1px;
+	margin-right:0px;
+	width:28px;
+	text-align:center;
+}
+
+.calendar-day-text-surrounding {
+	color: #6381ae;
+}
+
+.calendar-day-text-surrounding-selected {
+	color: white;
+}
+
+.clockface-container {
+	position:absolute;
+	top:5px;
+	left:6px;
+	height:35px;
+	width:35px;
+}
+
+.worldclock-location {
+}
+
+.worldclock-date {
+	position:absolute;
+	top:19px;
+	left:55px;
+	height:13px;
+	width:131px;
+	font: normal 11px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: rgba(97,103,114,1.0);
+}
+
+.worldclock-time {
+}
+/* @group Scrollbar */
+
+.scrollbar-track-top {
+	background:url(./images/scrollbar/tracktop.png) no-repeat;
+}
+
+.scrollbar-track-middle {
+	background:url(./images/scrollbar/trackmid.png) repeat-y;
+}
+
+.scrollbar-track-bottom {
+	background:url(./images/scrollbar/trackbottom.png) no-repeat;
+}
+
+.update-scroller .scrollbar-track .scrollbar-track-top {
+	background:url(./images/scrollbar/tracktop_dark.png) no-repeat;
+}
+
+.update-scroller .scrollbar-track .scrollbar-track-middle {
+	background:url(./images/scrollbar/trackmid_dark.png) repeat-y;
+}
+
+.update-scroller .scrollbar-track .scrollbar-track-bottom {
+	background:url(./images/scrollbar/trackbottom_dark.png) no-repeat;
+}
+
+.scrollbar, .scrollbar-track {
+	z-index:60;
+	width:12px;
+	overflow:hidden;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.scrollerThumb .barTop {
+	background:url(./images/scrollbar/bartop.png) no-repeat;
+}
+
+.note-scroller .scrollerThumb .barTop, .todo-scroller .scrollerThumb .barTop {
+	background:url(./images/scrollbar/bartop_todo.png) no-repeat;
+}
+
+.note-scroller .scrollerThumb .barMiddle, .todo-scroller .scrollerThumb .barMiddle {
+	background:url('./images/scrollbar/barmid_todo.png') repeat-y top left;
+}
+
+.note-scroller .scrollerThumb .barBottom, .todo-scroller .scrollerThumb .barBottom {
+	background:url('./images/scrollbar/barbottom_todo.png') repeat-y top left;
+}
+
+.update-scroller .scrollerThumb .barTop {
+	background:url(./images/scrollbar/bartop_update.png) no-repeat;
+}
+
+.update-scroller .scrollerThumb .barMiddle {
+	background:url('./images/scrollbar/barmid_update.png') repeat-y top left;
+}
+
+.update-scroller .scrollerThumb .barBottom {
+	background:url('./images/scrollbar/barbottom_update.png') repeat-y top left;
+}
+
+.scrollerThumb .barMiddle {
+	background:url('./images/scrollbar/barmid.png') repeat-y top left;
+}
+
+.scrollerThumb .barBottom {
+	background:url(./images/scrollbar/barbottom.png) no-repeat;
+}
+
+.scrollerThumbActive .barTop {	
+	background:url(./images/scrollbar/bartop_down.png) no-repeat;
+}
+
+.scrollerThumbActive .barMiddle {
+	background:url('./images/scrollbar/barmid_down.png') repeat-y top left;
+}
+
+.scrollerThumbActive .barBottom {
+	background:url(./images/scrollbar/barbottom_down.png) no-repeat;
+}
+
+.note-scroller .scrollerThumbActive .barTop, .todo-scroller .scrollerThumbActive .barTop {
+	background:url(./images/scrollbar/bartop_todo_down.png) no-repeat;
+}
+
+.note-scroller .scrollerThumbActive .barMiddle, .todo-scroller .scrollerThumbActive .barMiddle {
+	background:url('./images/scrollbar/barmid_todo_down.png') repeat-y top left;
+}
+
+.note-scroller .scrollerThumbActive .barBottom, .todo-scroller .scrollerThumbActive .barBottom {
+	background:url('./images/scrollbar/barbottom_todo_down.png') repeat-y top left;
+}
+
+.update-scroller .scrollerThumbActive .barTop {
+	background:url(./images/scrollbar/bartop_update_down.png) no-repeat;
+}
+
+.update-scroller .scrollerThumbActive .barMiddle {
+	background:url('./images/scrollbar/barmid_update_down.png') repeat-y top left;
+}
+
+.update-scroller .scrollerThumbActive .barBottom {
+	background:url('./images/scrollbar/barbottom_update_down.png') repeat-y top left;
+}
+/* @end */
+
+.pref-search-scroller .scrollerThumb .barTop {
+	background:url(./images/back/scrollbar/bartop.png) no-repeat;
+}
+
+.pref-search-scroller .scrollerThumb .barMiddle {
+	background:url('./images/back/scrollbar/barmid.png') repeat-y top left;
+}
+
+.pref-search-scroller .scrollerThumb .barBottom {
+	background:url('./images/back/scrollbar/barbottom.png') repeat-y top left;
+}
+
+.pref-search-scroller .scrollerThumbActive .barTop {
+	background:url(./images/back/scrollbar/bartop_down.png) no-repeat;
+}
+
+.pref-search-scroller .scrollerThumbActive .barMiddle {
+	background:url('./images/back/scrollbar/barmid_down.png') repeat-y top left;
+}
+
+.pref-search-scroller .scrollerThumbActive .barBottom {
+	background:url('./images/back/scrollbar/barbottom_down.png') repeat-y top left;
+}
+
+
+.section-in {
+	z-index:4;
+}
+
+.section-out {
+	z-index:5;
+}
+
+.note-index-item {
+	position:absolute;
+	left:0px;
+	height:20px;
+	overflow:hidden;
+	cursor:pointer;
+	width:196px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.note-index-item-highlight {
+	background-image:url(./images/notes/list_backgroundindex_highlight.png);
+	height:20px;
+	width:196px;
+	opacity:0;
+}
+
+.note-item-name {
+	width:130px;
+	position:absolute;
+	left:7px;
+	color:#4d4933;
+	height:14px;
+}
+
+
+.note-item-name-fade-0 {
+	color: #4d4933
+}
+
+.note-item-name-fade-1 {
+	color: #5a5642
+}
+
+.note-item-name-fade-2 {
+	color: #6c6856
+}
+
+.note-item-name-fade-3 {
+	color: #817f6f
+}
+
+.note-item-name-fade-4 {
+	color: #9a978b
+}
+
+.note-item-name-fade-5 {
+	color: #b2b1a7
+}
+
+.note-item-name-fade-6 {
+	color: #cac9c3
+}
+
+.note-item-name-fade-7 {
+	color: #e0dfdb
+}
+
+.note-item-name-fade-8 {
+	color: #f2f2f0
+}
+
+.note-item-name-fade-9 {
+	color: #ffffff
+}
+
+
+.note-item-date {
+	position:absolute;
+	top:5px;
+	left:142px;
+	width:33px;
+	font-family:"Lucida Grande";
+	font-size:9px;
+	text-align:right;
+	overflow:hidden;
+}
+
+.todo-item {
+	position:absolute;
+	color: rgba(0,0,0,0.7);
+	height:18px;
+	width:196px;
+	left:0px;
+	overflow:hidden;
+}
+
+.todo-highlight {
+	background-image:url(./images/todo/list_backgroundindex_highlight.png);
+	position:absolute;
+	height:15px;
+	width:196px;
+	left:0px;
+	top:1px;
+	overflow:hidden;
+}
+
+.todo-checkbox {
+	background-image:url(./images/todo/todo_check.png);
+	width:14px;
+	height:15px;
+	position:absolute;
+	top:-1px;
+	left:3px;
+}
+
+.todo-checkbox-on {
+	background-image:url(./images/todo/todo_checkon.png);
+}
+
+.todo-name {
+	position:absolute;	
+	left:18px;
+	height:16px;
+	color: rgba(0,0,0,0.7);
+}
+
+.selected-text {
+	color:white;
+}
+
+.todo-url-editor {
+	background-color:transparent;
+	height:15px;
+	line-height:15px;
+	border:0;
+}
+
+.todo-name-editor {
+	overflow:hidden;
+	position:absolute;	
+	left:16px;
+	border:0;
+	background-color:transparent;
+	opacity:0;
+	outline:none;
+	height:15px;
+	line-height:15px;
+	color:white;
+}
+
+.todo-no-due {
+	width:103px;
+}
+
+.todo-priority-select {
+	position:absolute;
+	left:168px;
+	width:8px;
+	height:6px;
+	overflow:hidden;
+	opacity:0;
+}
+
+.todo-priority {
+	position:absolute;
+	left:159px;
+	width:20px;
+	font-family:"Helvetica, Regular";
+	font-size:10pt / 15pt;
+	text-align:right;
+	top:1px;
+	height:13px;
+}
+
+.todo-priority-none {
+	background-image:url(./images/todo/todo_priority_none.png);
+}
+
+.todo-priority-low {
+	background-image:url(./images/todo/todo_priority_low.png);
+}
+
+.todo-priority-medium {
+	background-image:url(./images/todo/todo_priority_medium.png);
+}
+
+.todo-priority-high {
+	background-image:url(./images/todo/todo_priority_high.png);
+}
+
+.todo-due {
+	text-align:right;
+	position:absolute;
+	left:115px;
+	top:2px;
+	width:35px;
+	font-family:"Helvetica, Regular";
+	font-size:10pt / 15pt;
+	color:red;
+	display:none;
+}
+
+.todo-delete {
+	position:absolute;
+	left:2px;
+	width:14px;
+	height:16px;
+	background-image:url(./images/todo/todo_delete.png);
+	display:none;
+	opacity:1;
+}
+
+#todo-add-calendar {
+	position:absolute;
+	left:32px;
+	top:10px;
+	width:17px;
+	height:17px;
+	background-image:url(./images/todo/footer_addcal.png);
+}
+
+#todo-add-todo {
+	position:absolute;
+	left:70px;
+	top:10px;
+	width:17px;
+	height:17px;
+	background-image:url(./images/todo/footer_add.png);
+}
+
+#todo-delete {
+	position:absolute;
+	left:108px;
+	top:10px;
+	width:17px;
+	height:17px;
+	background-image:url(./images/todo/footer_delete.png);
+}
+
+#todo-info {
+	position:absolute;
+	left:146px;
+	top:10px;
+	width:17px;
+	height:17px;
+	background-image:url(./images/todo/footer_details.png);
+}
+
+.note-delete {
+	position:absolute;
+	top:-2px;
+	left:2px;
+	width:14px;
+	height:16px;
+	background-image:url(./images/todo/todo_delete.png);
+	display:none;
+}
+
+.note-item-header {
+	background-image:url(./images/notes/header.png);
+	width:196px;
+	height:23px;
+}
+
+.note-button-back {
+	background-image:url(./images/notes/button_back.png);
+	height:19px;
+	width:21px;
+	position:absolute;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.note-button-back:active {
+	background-position:0px -19px;
+}
+
+.note-button-new {
+	background-image:url(./images/notes/button_add.png);
+	height:19px;
+	width:21px;
+	position:absolute;
+	left:176px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.note-button-new:active {
+	background-position:0px -19px;
+}
+
+.note-button-trash {
+	background-image:url(./images/notes/button_delete.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:157px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.note-button-trash:active {
+	background-position:0px -19px;
+}
+
+.note-item-control-enabled {
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	opacity:1;
+}
+
+.note-item-control-disabled {
+	-apple-dashboard-region: none;
+	opacity:0.5;
+}
+
+.note-item-control, .note-content-email, .note-content-delete {
+	height:22px;
+	width:21px;
+	position:absolute;
+	top:3px;
+	background-position:0px 0px;
+}
+
+.note-item-control-enabled:active {
+	background-position:0px -22px;
+}
+
+#note-item-back {
+	background-image:url('images/notes/button_left.png');
+	left:43px;
+}
+
+#note-item-forward {
+	background-image:url('images/notes/button_right.png');
+	left:134px;
+}
+
+.note-content-email {
+	background-image:url('images/notes/button_email.png');
+	left:70px;
+}
+
+.note-content-delete {
+	background-image:url('images/notes/button_trash.png');
+	left:88px;
+}
+
+.note-base {
+	background-image:url('images/notes/list_background_base.png');
+	height:20px;
+	width:196px;
+	position:absolute;
+	left:0px;
+}
+
+#note-content-base {
+	background-image:url('images/notes/list_footer.png');
+	height:33px;
+	width:196px;
+	position:absolute;
+	left:0px;	
+}
+
+.note-item {
+	background-image:url('images/notes/list_background_top.png'), url('images/notes/list_background_mid.png');
+	background-repeat:no-repeat, repeat-y;
+	background-position:left top, 0px 1px;
+	width: 174px;
+	padding: 4px 0 0 22px;
+}
+
+.note-index {
+	background-image:url('images/notes/list_backgroundindex_top.png'), url('images/notes/list_backgroundindex_mid.png');
+	background-repeat: repeat-x, repeat;
+	background-position:left top, left top;
+	width: 196px;
+	padding: 4px 0 0 0px;
+}
+
+.note-item-text {
+	color: rgba(0,0,0,0.7);
+}
+
+.mf-font .note-index {
+	font: normal 13px/19px "Marker Felt", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.mf-font .note-item-text, .mf-font .todo-name, .mf-font .todo-name-editor {
+	font: 13px/15px 'Marker Felt', 'Helvetica', Lucida, sans-serif;
+}
+
+.mf-font .note-item-name {
+	top:5px;
+}
+
+.mf-font .todo-name {
+	top:2px;
+}
+
+.mf-font .todo-name-editor {
+	top:1px;
+}
+
+.nomf-font .note-index {
+	font: normal 13px Helvetica, Geneva, sans-serif;
+}
+
+.nomf-font .note-item-text, .nomf-font .todo-name, .nomf-font .todo-name-editor {
+	font: 13px Helvetica, Lucida, sans-serif;
+}
+
+.nomf-font .note-item-name {
+	top:3px;
+}
+
+.nomf-font .todo-name {
+	top:1px;
+}
+
+.nomf-font .todo-name-editor {
+	top:0px;
+}
+
+.tab {
+	position:absolute;
+	height:20px;
+	width:49px;	
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.tab-clocks {
+	background-image:url(./images/tabs/tab_clocks.png);
+	left:25px;
+}
+
+.tab-unselected {
+	background-position:0px 0px;
+}
+
+.tab-unselected:active {
+	background-position:0px -20px;
+}
+
+.tab-selected {
+	background-position:0px -40px;
+}
+
+.tab-selected:active {
+	background-position:0px -60px;
+}
+
+.tab-notes {
+	background-image:url(./images/tabs/tab_notes.png);
+	left:74px;
+}
+
+.tab-events {
+	background-image:url(./images/tabs/tab_events.png);
+	left:123px;
+}
+
+.tab-todos {
+	background-image:url(./images/tabs/tab_todo.png);
+	left:172px;
+}
+
+.event-header {
+	background-image:url(./images/events/eventdetail_header.png);
+	width:196px;
+	height:23px;
+	eventdetail_header
+}
+
+.todo-header {
+	background-image:url(./images/todo/header.png);
+	width:196px;
+	height:23px;
+}
+	
+.todo-button-new {
+	background-image:url(./images/todo/button_add.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:176px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-button-new:active {
+	background-position:0px -19px;
+}
+
+.todo-button-advanced {
+	background-image:url(./images/todo/button_advanced.png);
+	height:19px;
+	width:20px;
+	position:absolute;
+	left:0px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-button-advanced:active {
+	background-position:0px -19px;
+}
+
+.todo-button-newcal {
+	background-image:url(./images/todo/button_addcal.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:156px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.todo-button-newcal:active {
+	background-position:0px -19px;
+}
+
+.todo-index {
+	background-image:url('images/todo/list_background_top.png'), url('images/todo/list_background_mid.png');
+	background-repeat:no-repeat, repeat-y;
+	background-position:left top, 0px 1px;
+	width: 196px;
+}
+
+
+#todo-item-content {
+	background-image:url('images/todo/listnl_background_top.png'), url('images/todo/listnl_background_mid.png');
+	background-repeat:no-repeat, repeat-y;
+	background-position:left top, left top;
+	width: 196px;
+}
+
+.todo-base {
+	background-image:url('images/todo/list_footer.png');
+	height:39px;
+	width:196px;
+	position:absolute;
+	left:0px;
+}
+
+.todo-item-base {
+	background-image:url('images/todo/listnl_background_base.png');
+	height:20px;
+	width:196px;
+	position:absolute;
+	left:0px;
+}
+
+.clock-drag-shadow {
+	position:absolute;
+	height:63px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	z-index:60;
+	left:25px;
+	background-image:url(./images/clocks/clock_item_dragshadow.png);
+	width:196px;
+	display:none;
+}
+
+
+.event-item-container {
+	background-image:url('images/events/event_item_top.png'), url('images/events/event_item_bottom.png');
+	background-repeat:no-repeat, no-repeat;
+	background-position:left top, left bottom;
+	width:196px;
+	height:26px;
+	position:absolute;	
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.event-item-container-highlight {
+	background-image:url('images/events/event_item_top.png'), url('images/events/event_item_bottom.png');
+	background-repeat:no-repeat, no-repeat;
+	background-position:-196px top, -196px bottom;
+	width:196px;
+	height:26px;
+	position:absolute;	
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	opacity:0;
+}
+
+.event-item-animation {
+	z-index:50;
+}
+
+.event-seperator {
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:2px;
+	width:196px;
+	background-image:url(./images/events/event_separator.png);
+	z-index:51;
+}
+
+.event-back {
+	position:absolute;
+	left:0px;
+	height:19px;
+	width:20px;
+	background-image:url(./images/events/button_back.png);
+	background-position:0px 0px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.event-back:active {
+	background-position:0px -19px;
+}
+
+.event-item-title {
+	position:absolute;
+	top:6px;
+	width:124px;
+	font: bold 11px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	left:55px;
+	color: #354850;
+}
+
+.event-item-time {
+	position:absolute;
+	font: bold 10px "Helvetica Neue", Lucida, Verdana, sans-serif;
+	top:7px;
+	left:3px;
+	text-align:right;
+	color: #354850;
+	width:43px;
+	height:14px;
+	white-space:nowrap;
+}
+
+
+.event-item-name-fade-0 {
+	color: #354850;
+}
+
+.event-item-name-fade-1 {
+	color: #44555c;
+}
+
+.event-item-name-fade-2 {
+	color: #58686e;
+}
+
+.event-item-name-fade-3 {
+	color: #717e84;
+}
+
+.event-item-name-fade-4 {
+	color: #8c979b;
+}
+
+.event-item-name-fade-5 {
+	color: #a8b0b3;
+}
+
+.event-item-name-fade-6 {
+	color: #c3c9cb;
+}
+
+.event-item-name-fade-7 {
+	color: #dcdfe0;
+}
+
+.event-item-name-fade-8 {
+	color: #f1f2f2;
+}
+
+.event-item-name-fade-9 {
+	color: #ffffff;
+}
+
+.event-item-time-hour {
+	font: bold 9px "Helvetica Neue", Lucida, Verdana, sans-serif;
+}
+
+.event-item-time-allday {
+	position:absolute;
+	font: bold 10px "Helvetica Neue", Lucida, Verdana, sans-serif;
+	top:2px;
+	left:3px;
+	text-align:center;
+	width:43px;
+	line-height:10px;
+}
+
+
+.event-detail-label {
+	position:absolute;
+	left:8px;	
+	text-align:left;
+	width:48px;
+	font: bold 11px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: black;/*rgba(97,103,114,1.0);*/
+}
+
+.event-detail-value {
+	margin-top:13px;
+	position:absolute;
+	border:0px solid red;
+	word-wrap:break-word;
+	left:8px;	
+	width:180px;
+	font: bold 11px/14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #454850;
+}
+
+.event-ical {
+	background-image:url(./images/events/button_ical.png);
+	height:19px;
+	width:19px;
+	position:absolute;
+	left:177px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	background-position:0px 0px;
+}
+
+.event-ical:active {
+	background-position:0px -19px;
+}
+
+
+.clock-drag-shadow-mini {
+	position:absolute;
+	height:43px;
+	-apple-dashboard-region: dashboard-region(control rectangle);
+	z-index:55;
+	left:25px;
+	background-image:url(./images/clocks/clocksmall_item_dragshadow.png);
+	width:196px;
+	display:none;
+}
+
+.disabled {
+	opacity:0.5;
+}
